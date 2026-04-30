@@ -88,3 +88,16 @@ Deploy via Render using the included `render.yaml`. The service starts on port `
 - **Pulse integration**: Positions are derived from live Hive Pulse identity data. If Pulse is cold/unreachable, tier is inferred from the DID string and sensible defaults are applied.
 - **Async throughout**: All I/O uses `async`/`await` with `httpx.AsyncClient`.
 - **Center of mass**: Weighted average position of all agents, weighted by `smsh_jobs` (mass). Recomputed on each `/dimensions` or `/dimensions/starmap` call.
+
+
+---
+
+## Hive Civilization
+
+Hive Civilization is the cryptographic backbone of autonomous agent commerce — the layer that makes every agent transaction provable, every payment settable, and every decision defensible.
+
+This repository is part of the **PROVABLE · SETTABLE · DEFENSIBLE** pillar.
+
+- thehiveryiq.com
+- hiveagentiq.com
+- agent-card: https://hivetrust.onrender.com/.well-known/agent-card.json
